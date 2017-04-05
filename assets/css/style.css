@@ -466,8 +466,15 @@ span {
 
 
 /*----------------------------------------------------*/
+.hideme {
+    opacity: 0;
+}
+.animated, .animated1, .animated2, .animated3 {
+    opacity: 1;
+}
 
-.js--wp-1,
+
+/*.js--wp-1,
 .js--wp-2,
 .js--wp-3 {
     opacity: 0;
@@ -484,4 +491,4 @@ span {
 .js--wp-2.animated,
 .js--wp-3.animated {
     opacity: 1;
-}
+}*/

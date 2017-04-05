@@ -9,6 +9,8 @@
  */
 
 .animated {
+    -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+    animation-delay: 1s;
   -webkit-animation-duration: 7s;
   animation-duration: 7s;
   -webkit-animation-fill-mode: both;
@@ -16,6 +18,8 @@
    
 }
 .animated1 {
+    -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+    animation-delay: 1s;
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
@@ -23,6 +27,8 @@
     visibility: visible !important;
 }
 .animated2 {
+    -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+    animation-delay: 1s;
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
   -webkit-animation-fill-mode: both;
@@ -30,6 +36,8 @@
     visibility: visible !important;
 }
 .animated3 {
+    -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+    animation-delay: 1s;
   -webkit-animation-duration: 9s;
   animation-duration: 9s;
   -webkit-animation-fill-mode: both;
