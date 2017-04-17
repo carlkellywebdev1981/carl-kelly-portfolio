@@ -13,7 +13,9 @@ body {
 }
 
 
-/*----- reuables ------*/
+/*--------------------------------------------------------
+    REUSABLES 
+--------------------------------------------------------*/
 
 section {
     padding-top: 50px;
@@ -21,13 +23,9 @@ section {
 }
 
 
-/*--------------------------------------------------------*/
-
-
-/* MAIN NAV */
-
-
-/*--------------------------------------------------------*/
+/*--------------------------------------------------------
+    MAIN NAV 
+--------------------------------------------------------*/
 
 .main-nav {
     float: right;
@@ -59,13 +57,9 @@ section {
 }
 
 
-/*--------------------------------------------------------*/
-
-
-/* MOBILE NAV */
-
-
-/*--------------------------------------------------------*/
+/*--------------------------------------------------------
+    MOBILE NAV 
+--------------------------------------------------------*/
 
 .mobile-nav-icon {
     float: right;
@@ -80,13 +74,9 @@ section {
 }
 
 
-/*--------------------------------------------------------*/
-
-
-/* STICKY NAV */
-
-
-/*--------------------------------------------------------*/
+/*--------------------------------------------------------
+    STICKY NAV 
+--------------------------------------------------------*/
 
 .sticky {
     position: fixed;
@@ -123,133 +113,9 @@ section {
 }
 
 
-/*----- Side Menu ------*/
-
-#sidebar-wrapper {
-    z-index: 1000;
-    position: fixed;
-    right: 0;
-    width: 250px;
-    height: 100%;
-    margin-right: -250px;
-    overflow-y: auto;
-    background: rgb(51, 51, 51);
-    -webkit-transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -ms-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
-}
-
-.sidebar-nav {
-    position: absolute;
-    top: 0;
-    width: 250px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.sidebar-nav li {
-    text-indent: 20px;
-    line-height: 40px;
-}
-
-.sidebar-nav li a {
-    display: block;
-    text-decoration: none;
-    color: #999;
-}
-
-.first-one {
-    margin-top: 10px;
-}
-
-.sidebar-nav li a:hover {
-    text-decoration: none;
-    color: #fff;
-    background: rgba(255, 255, 255, 0.2);
-}
-
-.sidebar-nav li a:active,
-.sidebar-nav li a:focus {
-    text-decoration: none;
-}
-
-.sidebar-nav > .sidebar-brand {
-    height: 55px;
-    font-size: 18px;
-    line-height: 55px;
-}
-
-.sidebar-nav > .sidebar-brand a {
-    color: #999;
-}
-
-.sidebar-nav > .sidebar-brand a:hover {
-    color: #fff;
-    background: none;
-}
-
-#menu-toggle {
-    z-index: 1;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-#sidebar-wrapper.active {
-    right: 250px;
-    width: 250px;
-    -webkit-transition: all 0.4s ease 0s;
-    -moz-transition: all 0.4s ease 0s;
-    -ms-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s;
-}
-
-.toggle {
-    margin: 5px 5px 0 0;
-}
-
-.fa-bars {
-    font-size: 40px!important;
-    color: #fff;
-}
-
-.fa-times {
-    font-size: 40px!important;
-    color: #fff;
-    font-weight: 100!important;
-}
-
-.nav:hover {
-    color: #fff! important;
-    background-color: transparent;
-}
-
-.nav a {
-    color: #fff;
-    font-size: 22px;
-    text-transform: uppercase;
-    padding-top: 20px! important;
-}
-
-.navbar-nav li a:hover {
-    background-color: transparent;
-}
-
-.navbar-right {
-    padding-top: 10px;
-    padding-right: 20px! important;
-}
-
-.navbar-right li a:hover {
-    padding-bottom: 20px! important;
-}
-
-
-/* ----- jumbotron     ----- */
+/*--------------------------------------------------------
+    JUMBOTRON 
+--------------------------------------------------------*/
 
 .h1hi {
     border: 10px solid #333;
@@ -303,15 +169,6 @@ section {
     font-weight: 300;
     display: block;
 }
-
-
-/*.jumbotron h3 {
-    
- margin-top:90%; 
- left:10px;
- font-size:15px;
- color:#fff;
-}*/
 
 span {
     color: #fff;
@@ -423,7 +280,7 @@ span {
     width: 90%;
 }
 
-.js--section-features h4 {
+.js--section-projects h4 {
     padding-top: 50px;
     font-weight: 500;
     line-height: 1.1;
@@ -459,17 +316,18 @@ span {
 }
 
 
-/*--------------------------------------------------------*/
+/*--------------------------------------------------------
+    ANIMATIONS 
+--------------------------------------------------------*/
 
-
-/* ANIMATIIONS */
-
-
-/*----------------------------------------------------*/
 .hideme {
     opacity: 0;
 }
-.animated, .animated1, .animated2, .animated3 {
+
+.animated,
+.animated1,
+.animated2,
+.animated3 {
     opacity: 1;
 }
 
