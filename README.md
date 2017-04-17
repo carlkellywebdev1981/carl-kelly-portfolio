@@ -11,6 +11,7 @@ Link to Demo - [Carl Kelly Portfolio](http://www.onfiremedia.co.uk/carlkelly)
 
 ### Sections
 
+* header
 * About
 * Projects
 * Social Connect
@@ -24,7 +25,7 @@ Link to Demo - [Carl Kelly Portfolio](http://www.onfiremedia.co.uk/carlkelly)
 * CSS3
 * JQUERY
 * JAVASCRIPT
-* BOOTSTRAP 3
+
 
 ## Author
 
