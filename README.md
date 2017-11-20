@@ -1,23 +1,22 @@
-# Project Title
-
-Carl kelly Portfolio
+# Carl kelly Portfolio
 
 
-## Project
 
-Portfolio Website outlining my latest applications
 
-Link to Demo - [Carl Kelly Portfolio](http://www.onfiremedia.co.uk/carlkelly)
+## Portfolio Website outlining my latest applications
+
+
+
+Link to Demo - [Carl Kelly Portfolio](http://onfiremedia.co.uk/carlkelly)
 
 ### Sections
 
 * header
 * About
 * Projects
-* Social Connect
-* Blog
 * Contact
 * Footer
+* Social Connect
 
 ### Build With
 
@@ -29,6 +28,4 @@ Link to Demo - [Carl Kelly Portfolio](http://www.onfiremedia.co.uk/carlkelly)
 
 ## Author
 
-* **Carl Kelly** - [Onfire Media](http://www.onfiremedia.co.uk)
-
-
+* **Carl Kelly**
